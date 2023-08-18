@@ -78,6 +78,7 @@ form, .intro-text, .final-text {
 form {
     flex: 1;
     color: rgb(50,50,50);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 label {

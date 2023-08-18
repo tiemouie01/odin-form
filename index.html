@@ -22,7 +22,7 @@
             </p>
             <p class="second-text">You <em>know</em> you want to.</p>
         </div>
-        <form action="#" method="post">
+        <form action="#" method="post" id="user-form">
             <p class="form-caption">Let's do this!</p>
             <div class="fields">
                 <div class="field">
@@ -50,9 +50,12 @@
                     <input type="password" name="confirmPassword" id="confirm-pwd">
                 </div>
             </div>
-            <button type="submit">Create Account</button>
         </form>
-        <p class="final-text">Already have an account? <a href="#">Log in</a></p>
+
+        <div class="submit-section">
+            <button type="submit" form="user-form">Create Account</button>
+            <p class="final-text">Already have an account? <a href="#">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
