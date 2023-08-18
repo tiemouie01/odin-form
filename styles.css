@@ -92,8 +92,14 @@ label {
 }
 
 .field {
+    height: 48px;
+    width: 250px;
+    margin-right: 48px;
+
     display: flex;
     flex-direction: column;
-    width: 200px;
-    margin-right: 24px;
+}
+
+input {
+    padding: 4px;
 }
