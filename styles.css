@@ -8,6 +8,12 @@
     font-weight: bold;
 }
 
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
 .logo-section {
     width: 100vh;
     height: 100vh;
@@ -37,23 +43,12 @@
     font-size: 64px;
 }
 
-.background {
-    width: auto;
-    height: 100vh;
-}
-
-body {
-    display: flex;
-    height: 100vh;
-}
-
 .container {
     height: 100vh;
     width: auto;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-size: 14px;
 }
 
@@ -62,8 +57,13 @@ body {
     padding-right: 300px;
 }
 
+
 form, .intro-text, .final-text {
     padding-left: 48px;
+}
+
+form {
+    flex: 1;
 }
 
 .intro-text {
