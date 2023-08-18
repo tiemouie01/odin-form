@@ -68,6 +68,14 @@ form {
 
 .intro-text {
     height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.second-text {
+    margin-top: 5px;
 }
 
 .fields {
