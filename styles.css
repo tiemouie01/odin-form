@@ -109,4 +109,15 @@ input {
 
 input:focus {
     border: 1px solid blue;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.password {
+    color: red;
+    font-size: 0.8em;
 }
