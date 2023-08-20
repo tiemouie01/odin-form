@@ -58,7 +58,7 @@ body {
 }
 
 
-form, .intro-text, .final-text {
+form, .intro-text, .submit-section {
     padding-left: 48px;
 }
 
@@ -120,4 +120,8 @@ input:focus {
 .password {
     color: red;
     font-size: 0.8em;
+}
+
+.submit-section {
+    height: 25vh;
 }
