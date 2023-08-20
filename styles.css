@@ -78,7 +78,8 @@ form, .intro-text, .submit-section {
 form {
     flex: 1;
     color: rgb(50,50,50);
-    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 label {
@@ -123,5 +124,9 @@ input:focus {
 }
 
 .submit-section {
-    height: 25vh;
+    position: relative;
+    height: 18vh;
+    padding-top: 32px;
+    background-color: rgb(245, 245, 245);
+    z-index: 0;
 }
