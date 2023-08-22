@@ -70,9 +70,17 @@ form, .intro-text, .submit-section {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-bottom: 24px;
+}
+
+.first-text {
+    margin-bottom: 0;
 }
 
 .second-text {
+    margin-top: 0;
+}
+.third-text {
     margin-top: 5px;
 }
 
